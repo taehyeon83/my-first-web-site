@@ -33,9 +33,9 @@ body{
       display: block;
     }
       ol{
-        border-right:none;
       }
       h1{
+        border-right:none;
     border-bottom:none;
   }
   }
