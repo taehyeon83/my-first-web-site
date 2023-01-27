@@ -7,15 +7,25 @@ body{
   h1{
     font-size:45px;
     text-align: center;
-    border-bottom:1px solid black;
     margin:0;
     padding:20px;
   }
-  ol{
+  #night_day{
     font-size: 20px;
-    border-right:1px solid black;
+    margin-left: 35px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border:1px solid white;
+    background-color: black;
+    color: white;
+  }
+  ul{
+    font-size: 20px;
     width:100px;
-    margin:0;
+    margin: 0px;
+    margin-left:20px;
     padding:20px;
   }
   p{
@@ -26,20 +36,10 @@ body{
     display: grid;
     grid-template-columns: 150px 1fr
   }
-  #grid ol{
-    padding-left:33px;
-  }
-  #grid #article{
-    padding-left:25px;
+  #article{
+    padding-left:35px;
   }
   @media(max-width:800px){
     #grid{
       display: block;
     }
-      ol{
-      }
-      h1{
-        border-right:none;
-    border-bottom:none;
-  }
-  }

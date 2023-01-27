@@ -24,11 +24,12 @@ function nightDayHandler(self){
      self.value = 'day';
 
      Links.setColor('white');
-   } else {
+   }
+     else {
      Body.setBackgroundColor('white');
      Body.setColor('black');
      self.value = 'night';
 
-     Links.setColor('blue');
+     Links.setColor('black');
   }
  }
