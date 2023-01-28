@@ -9,8 +9,8 @@ body{
     text-align: center;
     margin:0;
     padding:20px;
+    position: relative;
   }
-  h1{ position: relative; }
 
   h1:before, h1:after {
    content: '[';
@@ -33,7 +33,7 @@ body{
 }
   #night_day{
     font-size: 20px;
-    margin-left: 35px;
+    margin: 20px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -43,23 +43,31 @@ body{
     color: white;
   }
   ul{
+    border-top: 3px solid mediumseagreen;
+    border-right: 3px solid mediumseagreen;
     list-style: none;
     font-size: 20px;
     width:100px;
     margin: 0px;
-    margin-left:20px;
-    padding:20px;
+    padding-left:40px;
+    padding-top:20px;
+    padding-right:7px;
+
+  }
+  h2{
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 0px;
+    background-color:mediumseagreen;
   }
   p{
+    margin-left: 40px;
     font-size:18px;
     font-style:oblique;
   }
   #grid{
     display: grid;
     grid-template-columns: 150px 1fr
-  }
-  #article{
-    padding-left:35px;
   }
   @media(max-width:800px){
     ul{
